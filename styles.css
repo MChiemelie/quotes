@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2%;
+  text-align: center;
+  background: #e7e7eb;
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.15rem;
+  color: white;
+  background: rgb(115, 63, 193);
+}
